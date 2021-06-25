@@ -1,0 +1,32 @@
+@keyframes keyFromLogin {
+    from {
+        background-color: burlywood;
+    }
+    to {
+        background-color: chartreuse;
+    }
+}
+.formLogin {
+    width: 600px;
+    height: 400px;
+    display: inline-block;
+    top: 100px;
+    position: relative;
+    animation-name: keyFromLogin;
+    animation-duration: 4s;
+    border: 1px solid black;
+}
+.formLogin label {
+    font-weight: bold;
+    font-size: 20px;
+}
+.formLogin input {
+    width: 300px;
+    height: 25px;
+    border-radius: 10%;
+}
+.formLogin button {
+    width: 100px;
+    height: 40px;
+    background-color: chartreuse;
+}

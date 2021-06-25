@@ -1,0 +1,54 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.col-md-3 {
+    width: 25%;
+}
+.profile-card {
+    background: linear-gradient(to bottom, rgba(39, 170, 225, 0.8), rgba(28, 117, 188, 0.8)),
+        url("https://themified.com/friend-finder/images/covers/1.jpg") no-repeat;
+    background-size: cover; /* tự động chỉnh sửa kích thước back    ground cho phù hợp với nội dung , chiều nào lớn hơn thì theo chiều đó*/
+    width: 100%;
+    color: #fff;
+    margin-bottom: 40px;
+    height: 90px;
+    margin-top: 20px;
+    position: relative;
+}
+.profile-card .profile-photo {
+    position: relative;
+    left: -60px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    top: -30px;
+}
+.profile-card span.infoUser {
+    left: 81px;
+    position: absolute;
+    top: 10px;
+    color: #fff;
+    width: 200px;
+}
+.profile-card .infoUser > a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+.nav-news-feed {
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 0 40px 0;
+}
+.nav-news-feed > li {
+    display: block;
+}
+.nav-news-feed .icon .ion-ios-paper {
+    background: url("https://themified.com/friend-finder/images/bullet.png");
+}

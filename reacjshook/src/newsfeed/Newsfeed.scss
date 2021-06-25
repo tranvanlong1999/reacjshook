@@ -1,0 +1,79 @@
+.nav-bar {
+    background-color: #231f20;
+}
+.container {
+    margin-left: auto; /* căn giữa left  */
+    margin-right: auto; /* căn giữa right  */
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 1050px;
+}
+.navbar-header {
+    position: relative;
+}
+.navbar-logo {
+    position: absolute;
+    left: 0px;
+    width: 300px;
+    padding: 15px 15px;
+    font-size: 18px;
+}
+.form-group {
+    position: relative;
+    top: 8px;
+    color: #fff;
+    width: 235px;
+    height: 27.31px;
+}
+.nav-bar .container .form-group .form-control {
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: none;
+    color: #fff;
+    height: 26px;
+    font-size: 13px;
+    padding-left: 30xp;
+    border-radius: 13px;
+}
+.navbar-menu {
+    display: flex;
+    flex-direction: row;
+    padding-left: 360px;
+    padding-top: 10px;
+}
+.navbar-menu-ul {
+    display: inline-flex;
+    padding-left: 40px;
+    color: rgb(248, 247, 247);
+    list-style: none;
+}
+.navbar-menu-ul-li {
+    padding-right: 10px;
+}
+.img {
+    vertical-align: middle;
+}
+.navbar-menu-ul-li > a {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+}
+.navbar-menu .form-search .form-group > i.icon {
+    position: absolute;
+    left: 15px;
+    top: 3px;
+    color: #fff;
+    width: 9.57px;
+    height: 25.6px;
+}
+.navbar-menu .form-search .form-group .form-control {
+    position: absolute;
+    width: 235px;
+    height: 26px;
+    left: 0px;
+    padding-top: 0px;
+}
+.navbar-menu .form-search {
+    width: 265px;
+    height: 55.06px;
+    top: 8px;
+}
