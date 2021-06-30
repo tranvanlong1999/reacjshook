@@ -2,9 +2,37 @@ import React, { useState } from 'react';
 import './Login.scss';
 
 function Login() {
-    return (
+    var cources = [
+        {
+            id: 1,
+            name: Javascrip,
+            coin: 0
+        },
+        {
+            id: 2,
+            name: HTML,
+            coin: 1
+        },
+        {
+            id: 3,
+            name: PHP,
+            coin: 2
+        }
 
-        <div>
+    ];
+    //
+    function courceHandler(cource) {
+        return {
+            id: cource.id,
+            name: `khoa hoc : ${cource.name} `,
+            coin: cource.coin,
+            coinTex: `Gia : ${cource.coin}`
+        }
+    }
+
+    var newCource = cources.map(courceHandler);
+    return (
+        < div >
             <form className="Login" action="" method="post" className="formLogin">
                 <h1>Đăng Nhập</h1>
                 <p>
@@ -18,7 +46,7 @@ function Login() {
                 <button type="submit" className="login">Đăng Nhập</button>
                 <a href="#">Quyên mật khẩu</a>
             </form>
-        </div>
+        </div >
     );
 }
 export default Login;
